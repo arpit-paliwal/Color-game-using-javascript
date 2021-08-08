@@ -1,0 +1,77 @@
+body {
+	 	background-color: #232323;
+	 	margin : 0;
+	 	font-family : "Roboto";
+	}
+
+.square {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	Margin:  1.66%;
+	border-radius:  15%;
+	transition: background 0.4s ;
+
+
+}	
+
+#container {
+	max-width:  500px;
+	Margin :20px auto ;
+	
+
+}
+
+h1{
+	text-align : center;
+	line-height:  1.1;
+	font-weight:  normal;
+	background : steelblue;
+	color:  white;
+	margin : 0;
+	text-transform : uppercase;
+	padding: 20px 0;
+}
+
+#colorDisplay{
+	font-size:  200%;
+}
+
+#message{
+	display:  inline-block;
+	width:  20%;
+}
+
+#stripe{
+	background : white;
+	height : 30px;
+	text-align: center;
+	color:  black;
+
+}
+
+.selected
+{
+	color: white;
+	background:  steelblue;
+}
+
+button{
+	border: none;
+	background : none;
+	text-transform : uppercase;
+	height:  100%;
+	font-family : "Roboto";
+	font-weight:  bold; 
+	color:  steelblue;
+	letter-spacing:  1px;
+	font-size:  inherit;
+	transition:  all 0.4s;
+}
+
+button:hover {
+	color: white;
+	background:  steelblue;
+
+}
